@@ -1,0 +1,166 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Charreria</title>
+<link href="jQuery-Mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jQuery-Mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+.borde {
+	border: 5px solid #06F;
+}
+
+.textoprin {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 36px;
+	font-style: oblique;
+	font-weight: bold;
+	color: #C3C;
+	text-align: center;
+	vertical-align: middle;
+}
+.tit {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 40px;
+	text-decoration: blink;
+	text-align: center;
+	vertical-align: middle;
+	color: #F60;
+}
+.sub {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	text-decoration: blink;
+	text-align: center;
+	vertical-align: middle;
+}
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #000;
+	text-align: justify;
+}
+#caja {
+	background-color: #FFFFFF;
+	border: 4px solid #000;
+	opacity: 0.6;
+	width: 100%;
+	height:100%;
+}
+.subtit {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 36px;
+	color: #06F;
+	text-align: left;
+}
+</style>
+<script src="jQuery-Mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jQuery-Mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+</head> 
+<body> 
+
+<div data-role="page" id="page" data-theme="e">
+	<div data-role="header">
+		<div class="tit">Charrería en México</div>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li class="borde"><a href="#page2"><div class="textoprin">Historia</div></a></li>
+            <li class="borde"><a href="#page3"><div class="textoprin">La Escaramuza Charra</div></a></li>
+			<li class="borde"><a href="#page4"><div class="textoprin">Tipo de Suertes Charras</div></a></li>
+            <li class="borde"><a href="#page5"><div class="textoprin">Reglamento</div></a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<div class="sub">Centro de Bachillerato Tecnológico Industrial y de Servicios N°86<br>Montserrat Barragan Salas<br>Técnico en Programación 4° "E"</div>
+	</div>
+</div>
+
+<div data-role="page" id="page2" data-add-back-btn="true" data-back-btn-theme="e" data-back-btn-text="Regresar" data-theme="e">
+	<div data-role="header">
+		<div class="tit">Historia</div>
+	</div>
+	<div data-role="content" align="center">	
+    <div id="caja" class="text" style="width:70%; height:60%">
+		<img src="Imagenes/histo.jpg" width="453" height="324" align="right">Una de las primeras autorizaciones de que se tiene conocimiento - porque existe escrito -, fue la otorgada por el Marqués de Guadalcazar Don Diego Fernández de Córdova, quien otorgó autorización por mandato del Virrey Luis de Tovar Godínez al padre jesuita Gabriel de Tapia - procurador de la Compañía de Jesús - para que 22 indios, montarán a caballo, y así poder cuidar y pastorear más de 100 mil cabezas de ganado menor pertenecientes a la Hacienda de Santa Lucía, filial de la de San Javier en el distrito de Pachuca - ahora Estado de Hidalgo -. Esto ocurrió el 16 de noviembre de 1619, en la primera mitad del siglo XVII.<p>
+Ya en 1555, segunda mitad del siglo XVI, el segundo Virrey de la Nueva España, Don Luís de Velasco, había puesto en uso una montura distinta a la que usaban los españoles; así surgieron las primeras sillas mexicanas y los primeros frenos de estilo diferente, con características propias para las necesidades vaqueriles de la Nueva España.
+Los caciques Otomíes, Nicolás Montañéz; Fernando de Tapia y el instructor Fray Pedro Barrientos, contribuyeron mucho a la cimentación de la cacharrería. ( Años 1531 a 1555 ). Por ese tiempo el santo varón Sebastián de Aparicio, adquirió la hacienda de Careaga, - entre Azcapotzalco y Tlalnepantla, en el Estado de México -, donde de se dedico a la agricultura y la ganadería, enseñando los indígenas que no mostraron interés en la agricultura una nueva actividad; la doma de bovinos y más tarde la del ganado caballar, a pesar de estar prohibido hacerlo, pues su uso era reservado sólo a los conquistadores. Surgiendo así este nuevo oficio que luego se extendió floreciente desde la Mesa Central, a todos los confines del Virreinato con el nombre de Charrería. Este ejemplar y virtuoso varón a los 71 años dejó la actividad civil donando sus propiedades al convento de Santa Clara en el Estado de México.<p>
+Así nació la charrería en las haciendas de los estados de Hidalgo, - cuna de la Charrería -, Puebla y Estado de México, extendiéndose más tarde por toda la Nueva España y floreciendo en el Virreinato de la Nueva Galicia, - actual Estado de Jalisco y sus alrededores-.<p>
+Posteriormente y poco a poco la Charrería creció, al generalizarse el uso de los caballos entre los habitantes de nuestro país, donde los hacendados y sus servidores de confianza hacían gala de su pericia y destreza en el manejo de los animales, consumando útiles y valiosas maniobras con arrojo, valentía y pericia.<p>
+En 1880 la Charrería profesional tuvo su origen, fue entonces cuando apareció el famoso "Charro Ponciano” cuyas hazañas reconocemos por los corridos y canciones.
+
+		</div>
+	</div>
+	<div data-role="footer">
+		<div class="sub">Centro de Bachillerato Tecnológico Industrial y de Servicios N°86<br>Montserrat Barragan Salas<br>Técnico en Programación 4° "E"</div>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-add-back-btn="true" data-back-btn-theme="e" data-back-btn-text="Regresar" data-theme="e">
+	<div data-role="header">
+		<div class="tit">La Escaramuza Charra</div>
+	</div>
+	<div data-role="content" align="center">	
+    <div id="caja" class="text" style="width:70%; height:60%">
+		<img src="Imagenes/esca.jpg" width="453" height="324" align="left">La charreada de hoy en día recibe el toque femenino cuando la mujer a caballo ejecutan sus espectaculares circunvoluciones en la charreada. Se monta "a mujeriegas", es decir, -de lado- en una albarda de origen europeo que a través de los años tomó las formas propias de la Charrería en una evolución que data de más de cien años e iniciada en países de Europa y África.<p>
+Se forman asociaciones estableciéndose en varios estados de la república mexicana; en sus activi-dades participaban los socios que provenían de las haciendas ganaderas que se habían refugiado en las grandes ciudades durante la contienda bélica, así como charros de nuevo cuño que trataban de aprender como ejecutar las faenas vaquerizas contratando a charros profesionales para ello. PRIMERA REINA Y CAPITANA.<p>
+Se empezaron a impartir clases a las que asistían desde los pequeños vástagos. En tanto las damas, fuera de algunos grupos como los de San Luis Potosí, Guadalajara y More1ia, se abstenían de asistir a los ranchos charros por el ambiente tan bravío posrevolucionario que existía.<p>
+La Asociación Nacional de Charros trató de vencer esta situación al nombrar en el año de 1925 a su "Primera Reina y Capitana", la Srita. Ana María Gabucio y Sánchez Mármol, estableciendo. Además, la primera Escuela Charra al mando de Rodolfo Rodríguez.<p>
+Años más tarde, bajo el patrocinio de la Metropolitana, se funda la Asociación Metropolitana de Chinas en 1933, integrada por las esposas, hermanas e hijas de los mismos socios, las que también ayudaron en todas las actividades a sus esposos y padres, estableciendo otra escuela de equitación charra al mando del entonces capitán José Ignacio Lepe fundó el grupo de Damas Charras del Círculo de Amigos Charros de Villa Obregón (San Ángel) que se presentaban, junto con los charros, en festivales y desfiles.
+Una crónica de la época relata que se presentaban: "Muy bien montadas, elegante y vistosamente ataviadas como charras. Ejecutaban algunos ejercicios al paso, al trote y al galope". Algo parecido a lo que años antes había organizado Lepe con los charros "Guardabosque" del Escuadrón Montado de la Policía del Distrito Federal.<p>
+Los antecedentes inmediatos de las actuales Escaramuzas Charras, que ejecutan sus movimientos siempre a galope y por lo regular vestidas de Adelitas habían echado raíces junto con otros factores indispensables para su surgimiento. Nada aparece en forma espontánea, siempre es indispensable una evolución y el momento propicio para ello.<p>
+Varias mujeres comenzaron a mover los caballos montadas a mujeriegas, tan bien o mejor que los hombres. En el grupo de San Ángel había un ramillete de amazonas entre las que figuraban Alicia Sarmienta y Lily Romero, quienes se daban el "quién vive" en tan arriesgada ejecución contra Edith Calcáneo y Lupita Monroy, rivalizando con la representante de la Nacional, la gentil Malena Lucio.<p>
+Sin embargo, a pesar de estos ejemplos de pundonor, vergüenza, habilidad, gracia, belleza y señorío, los charros siempre se oponían a que las mujeres compitieran en charreadas formales. Pero no pudieron impedir su participación cada vez más mayor en el medio charro, que aunado al creciente número de niños y niñas que iban a practicar a la escuela charra, crearon las condiciones propicias para el gran cambio que tuvieron las asociaciones en su estructura y la Charrería en general, a la que en forma definitiva se integraría y participaría toda la familia.
+		</div>
+	</div>
+	<div data-role="footer">
+		<div class="sub">Centro de Bachillerato Tecnológico Industrial y de Servicios N°86<br>Montserrat Barragan Salas<br>Técnico en Programación 4° "E"</div>
+	</div>
+</div>
+
+<div data-role="page" id="page4" data-add-back-btn="true" data-back-btn-theme="e" data-back-btn-text="Regresar" data-theme="e">
+	<div data-role="header">
+		<div class="tit">Tipo de Suertes Charras</div>
+	</div>
+	<div data-role="content" align="center">	
+    <div id="caja" class="text" style="width:70%; height:60%">
+			<font class="subtit">Cala: </font>
+            Esta faena es la demostración de la buena rienda y educación del caballo charro y comprende, buen gobierno, estribo, mansedumbre, andadura, galope, carrera, ceja y posturas de cabeza y cola. Consiste en que el caballo corra a toda velocidad y se frene en un solo tiempo y a esto se le llama punta. Después vienen los lados donde el caballo tiene que girar sobre su propio eje apoyado en una sola pata así hacia los dos lados. A continuación vienen los medios lados donde tiene que hacer lo mismo pero a la mitad y al final de esta suerte tiene que caminar hacia atrás hasta la línea de los cincuenta metros.<p>
+Esta suerte charra es la considerada de las más importantes dentro del deporte nacional por excelencia, ya que en esta se demuestra la conexión (comunicación), que existe entre el charro (jinete) y la bestia (caballo). Así mismo es demostrado si el caballo está cómodo o algo le incomodan algún tipo de arreo que se utiliza para su manejo.<p>
+<font class="subtit">Piales: </font>
+La faena de los píales en el lienzo, consiste en detener a una yegua que saliendo por la puerta del partidero y desplegando su carrera por el lienzo es lazada exclusivamente de sus cuartos traseros por un charro que montando en su cabalgadura amarra su reata en la cabeza de la montura para chorrearla según sea necesario restándole paulatinamente la velocidad a la yegua bruta hasta remachar su reata deteniendo así totalmente la carrera del animal. El charro debe de tener cuidado que la reata no traiga vueltas atoradas por que le puede volar dedos.hay diferentes tipos de piales uno de ellos son el pial de piquete, pial floreado, y el pial de chaqueta. el pial de piquete consiste en tener la lazada al suelo y al momento de pasar la yegua lanzarla con fuerza hacia las patas traseras de la yegua, el pial floreado consiste en hacer un pequeño floreo momentos antes de pasar la yegua y al momento de pasar el animal tirarla a las patas traseras, el pial de chaqueta consiste en colocarse el charro con su caballo de espaldas a donde la yegua pasara y haciendo un remolineo contrario para que al momento que pase la bruta (yegua) coloque la soga en las patas traseras de la misma.<p>
+<font class="subtit">Colas: </font>
+La faena del coleadero consiste en que un charro montado en su cabalgadura esperará en la puerta del partidero la salida de un toro, al que después de saludar y pachonear lo tomará de la cola para amarrársela en la pierna el coleador y posteriormente adelantar la carrera de su caballo al tiempo que lo abre estirando al toro hasta conseguir derribarlo, desarrollando todas estas acciones, en una distancia máxima de 60 metros.<p>
+<font class="subtit">Jineteo de Toro: </font>
+Esta faena consiste en que un charro monte a un toro con la finalidad de permanecer montado en él hasta que el toro deje de reparar, para ello se encajonará al toro y con un equipo de auxiliares, los cuales deberán vestir correctamente de charros, hasta dos apretaladores por dentro del ruedo para estirar el pretal, pudiendo contar hasta con tres ayudantes por dentro de los cajones para sostener la cabeza del toro, apretalar y sujetar del cinto al jinete, para que pueda montarse y acomodarse, el mismo dará la indicación para que se abra la puerta del cajón, la faena inicia en el momento en que los jueces dan la orden para contabilizar el tiempo para apretalamiento, y termina cuando el toro deja de reparar es entonces cuendo el jinete cuenta con 3 minutos para bajarse cada minuto ahorrado cuenta como punto.<p>
+<font class="subtit">Terna en el Ruedo: </font>
+La faena de la terna en el ruedo consiste en que tres charros lazadores montados a caballo y en una condición de equipo deberán lazar a un toro, pialarlo y derribarlo. Para hacerlo dispondrán de tres oportunidades cada uno ya sea para lazar la cabeza del toro o pialarlo, participarán obligatoriamente en forma alternada, después de intentar su oportunidad el primer charro, la intentará el segundo y posteriormente el tercero, y así sucesivamente hasta agotar sus oportunidades. Podrán intentarse lazos y píales floreados o sencillos.<p>
+<font class="subtit">Jineteo de Yegua: </font>
+Esta faena consiste en que un charro monte a una yegua bruta con la finalidad de permanecer montado en el lomo del animal desde su salida del cajón hasta que deje de reparar, para ello, se encajonará al equino y con un equipo de auxiliares los cuales deberán vestir correctamente de charros, hasta dos apretaladores por dentro del ruedo para estirar el pretal, pudiendo contar hasta con tres ayudantes por dentro de los cajones para sostener la cabeza de la yegua, apretalar y sujetar del cinto al jinete, para que pueda montarse y acomodarse, el mismo dará la indicación para que se abra la puerta del cajón, la faena inicia en el momento en que los jueces dan la orden para contabilizar el tiempo para apretalamiento, y termina cuando el charro se desmonta por cualquier razón.<p>
+<font class="subtit">Paso de la Muerte: </font>
+Esta faena consiste, en que un charro montado a pelo en un caballo manso, armando un brinco se cambie a un caballo o yegua brutos que desarrollara su carrera siendo arreado por tres charros en sus respectivas cabalgaduras, el jinete ejecutante de la faena se sujetará exclusivamente de las crines del animal bruto hasta dominarlo y desmontarse. El pasador se encuentra en suerte desde el momento en que ingresa al ruedo y esta concluye cuando se desmonta el jinete por sí mismo o es derribado por el animal bruto una vez que haya brincado de un equino a otro, o cuando es derribado del caballo manso al intentar o no la faena o también cuando transcurren los tres minutos que se le otorgan para realizar la suerte. Este movimiento puede ser fatal para la persona que lo ejecute ya que puede caer debajo del animal y ser pisoteado grave mente por los tres jinetes que arrean al animal. Además de que también existe una suerte charra donde entran las mujeres llamadas escaramuza que se dedican a hacer una diversidad de figuras en donde participan 6 damas como mínimo en la cual se les califica en base a tiempos, velocidad y en base también a la dificultad de sus actividades.
+        </div>	
+	</div>
+	<div data-role="footer">
+		<div class="sub">Centro de Bachillerato Tecnológico Industrial y de Servicios N°86<br>Montserrat Barragan Salas<br>Técnico en Programación 4° "E"</div>
+	</div>
+</div>
+
+<div data-role="page" id="page5" data-add-back-btn="true" data-back-btn-theme="e" data-back-btn-text="Regresar" data-theme="e">
+	<div data-role="header">
+		<div class="tit">Reglamento</div>
+	</div>
+	<div data-role="content" align="center">	
+    <div id="caja" class="text" style="width:70%; height:60%">	
+		Los charros deben cumplir con un reglamento para la práctica de su deporte y la vestimenta. Cuentan incluso con un riguroso protocolo para iniciar las celebraciones y los encuentros entre equipos. <img src="Imagenes/charr.jpg" width="453" height="324" align="left">El traje nacional de México es el atuendo Charro, mismo que con frecuencia ha sido desvirtuado por personas de la industria del espectáculo hasta volverse sinónimo de mal gusto, consta en realidad de pantalón de corte charro sin bolsas traseras, chaqueta y chaleco en caso de los trajes de gala, pachuqueña de colores serios y corbata de moño, chaparreras de cuero que se colocan por encima del pantalón, sombrero de ancha lorenzana de copa alta bordado o galonado, botín charro y espuelas.Tiene varias categorías al ser de Faena, de Media Gala, de Gala, de Gran Gala y de Etiqueta. Por todo el mundo los grupos de Mariachi así como algunos cantantes folclóricos utilizan un traje parecido.
+En una charreada siempre se incluyen las escaramuzas, que son evoluciones coreografiadas, a galope o a trote ligero ejecutadas por mujeres que montadas en albarda de lado al estilo amazona y ataviadas con el traje de Adelita o de ranchera mexicana compiten en equipos ganando por puntuación; también se les conoce como Escaramuza charra.
+Cada año en una sede diferente se realiza el Congreso y Campeonato Nacional Charro en el que se reúnen y compiten los 117 mejores equipos charros, las 84 mejores escaramuzas y 15 charros completos, tanto de México como de los Estados Unidos.		
+	</div>
+    </div>
+	<div data-role="footer">
+		<div class="sub">Centro de Bachillerato Tecnológico Industrial y de Servicios N°86<br>Montserrat Barragan Salas<br>Técnico en Programación 4° "E"</div>
+	</div>
+</div>
+</body>
+</html>
